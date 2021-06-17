@@ -1,0 +1,16 @@
+{
+  "name": "vitepress",
+  "version": "1.0.0",
+  "description": "vitepress to write sth",
+  "main": "index.js",
+  "author": "yanjunyu",
+  "license": "MIT",
+  "scripts": {
+    "start": "vitepress dev docs --port 3333",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^0.14.1"
+  }
+}

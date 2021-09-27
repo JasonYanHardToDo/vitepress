@@ -6,7 +6,7 @@
   "author": "yanjunyu",
   "license": "MIT",
   "scripts": {
-    "start": "vitepress dev docs --port 3333",
+    "start": "vitepress dev docs --port 3333 --open",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
   },
